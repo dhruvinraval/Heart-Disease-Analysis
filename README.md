@@ -8,7 +8,6 @@ This project analyzes a dataset related to heart disease and builds a predictive
 - [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Modeling](#modeling)
 - [Results](#results)
@@ -47,5 +46,22 @@ The dataset used in this project is the **Heart Disease Dataset** (`heart.csv`).
 
 To run this project, you will need to have Python installed on your machine. You can install the required packages using `pip`:
 
-```bash
 pip install pandas matplotlib seaborn scikit-learn
+
+## Exploratory Data Analysis
+This section involves:
+
+- Summary statistics of numerical features.
+- Visualizations including histograms, box plots, and scatter plots to explore relationships between features.
+- Correlation analysis to identify relationships between different variables.
+
+## Modeling
+- A logistic regression model is used to predict the presence of heart disease.
+- The dataset is split into training and testing sets, and model accuracy is evaluated using a confusion matrix and classification report.
+
+## Results
+- Model Accuracy: 81%
+
+## Conclusion
+- This project demonstrates the potential of data analysis and machine learning techniques in predicting heart disease.
+- Future work could involve exploring different algorithms, fine-tuning model parameters, or expanding the dataset.
