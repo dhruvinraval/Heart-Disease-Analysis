@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction
+# Heart-Disease-Analysis
 ## Overview
 
 This project analyzes a dataset related to heart disease and builds a predictive model to determine the likelihood of heart disease in individuals based on various health features. The dataset contains several health indicators, including age, sex, cholesterol levels, and more. The goal is to perform exploratory data analysis (EDA), visualize relationships, and apply machine learning techniques to predict heart disease outcomes.
